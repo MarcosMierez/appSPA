@@ -58,10 +58,10 @@
             return $http.get('http://testeapi-2.apphb.com/Api/NoticiaApi');
         };
         this.detalheNoticia = function (noticiaId) {
-            return $http.get('http://localhost:2332/api/detalhe/' + noticiaId);
+            return $http.get('http://testeapi-2.apphb.com/api/detalhe/' + noticiaId);
         }
         this.publicarNoticia = function (noticia) {
-            return $http.post('http://localhost:2332/Api/NoticiaApi', noticia);
+            return $http.post('http://testeapi-2.apphb.com/Api/NoticiaApi', noticia);
         }
     });
 
