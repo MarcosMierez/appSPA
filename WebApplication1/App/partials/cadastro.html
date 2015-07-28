@@ -1,0 +1,12 @@
+﻿<h2>cadastrar noticia</h2>
+<blockquote>
+    Genero : {{noticia.ColunaId}}<br />
+    Noticia : {{noticia.CorpoNoticia}}
+</blockquote>
+<form name="cadastroForm">
+    <label>Genero</label>
+    <input type="text" name="ColunaId" ng-model="noticia.ColunaId" /><br />
+    <label>Noticia</label>
+    <input type="text" name="CorpoNoticia" ng-model="noticia.CorpoNoticia" /><br />
+    <button type="submit" class="btn btn-success" ng-click="postarnoticia(noticia)">cadastrar</button>
+</form>

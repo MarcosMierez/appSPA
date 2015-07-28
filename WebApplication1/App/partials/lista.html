@@ -1,0 +1,16 @@
+﻿<h2>Todas Noticias </h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Genero</th>
+        <th>Noticia</th>
+        <td></td>
+    </tr>
+    </thead>
+    <tr ng-repeat="notice in allNotices">
+        <td>{{notice.ColunaId}}</td>
+        <td>{{notice.CorpoNoticia}}</td>
+        <td><a href="#/noticias/{{notice.Id}}">detalhe</a></td>
+    </tr>
+</table>
+<a href="#/cadastro">Nova Noticia</a>
