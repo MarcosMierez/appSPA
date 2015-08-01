@@ -17,3 +17,22 @@ C:\Users\Marcos Vinicius\Documents\Visual Studio 2013\Projects\TesteApp\WebAppli
 C:\Users\Marcos Vinicius\Documents\Visual Studio 2013\Projects\TesteApp\WebApplication1\bin\System.Net.Http.Formatting.xml
 C:\Users\Marcos Vinicius\Documents\Visual Studio 2013\Projects\TesteApp\WebApplication1\bin\System.Web.Http.xml
 C:\Users\Marcos Vinicius\Documents\Visual Studio 2013\Projects\TesteApp\WebApplication1\bin\System.Web.Http.Cors.xml
+C:\GitAplicacao\TesteApp\WebApplication1\bin\WebApplication1.dll.config
+C:\GitAplicacao\TesteApp\WebApplication1\bin\WebApplication1.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\WebApplication1.pdb
+C:\GitAplicacao\TesteApp\WebApplication1\bin\Dapper.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\MySql.Data.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\Newtonsoft.Json.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Web.Cors.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Web.Http.Cors.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Web.Http.dll
+C:\GitAplicacao\TesteApp\WebApplication1\bin\Dapper.pdb
+C:\GitAplicacao\TesteApp\WebApplication1\bin\Dapper.xml
+C:\GitAplicacao\TesteApp\WebApplication1\bin\Newtonsoft.Json.xml
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Web.Http.xml
+C:\GitAplicacao\TesteApp\WebApplication1\bin\System.Web.Http.Cors.xml
+C:\GitAplicacao\TesteApp\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\GitAplicacao\TesteApp\WebApplication1\obj\Debug\WebApplication1.dll
+C:\GitAplicacao\TesteApp\WebApplication1\obj\Debug\WebApplication1.pdb

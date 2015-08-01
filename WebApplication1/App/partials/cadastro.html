@@ -3,10 +3,14 @@
     Genero : {{noticia.ColunaId}}<br />
     Noticia : {{noticia.CorpoNoticia}}
 </blockquote>
-<form name="cadastroForm">
+<form name="noticiaForm" ng-submit="postarnoticia(noticia)" class="form-group">
     <label>Genero</label>
-    <input type="text" name="ColunaId" ng-model="noticia.ColunaId" /><br />
+    <select id="ColunaId" name="ColunaId" ng-model="noticia.ColunaId" class="form-control">
+        <option value="Esporte">Esporte</option>
+        <option value="Musica">Musica</option>
+        <option value="Politica">Politica</option>
+    </select>
     <label>Noticia</label>
-    <input type="text" name="CorpoNoticia" ng-model="noticia.CorpoNoticia" /><br />
-    <button type="submit" class="btn btn-success" ng-click="postarnoticia(noticia)">cadastrar</button>
+    <input type="text" name="CorpoNoticia" ng-model="noticia.CorpoNoticia" class="form-control"/><br />
+    <button type="submit" class="btn btn-success">cadastrar</button>
 </form>

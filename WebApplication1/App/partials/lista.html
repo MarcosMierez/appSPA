@@ -1,16 +1,22 @@
-﻿<h2>Todas Noticias </h2>
-<table class="table">
-    <thead>
-    <tr>
-        <th>Genero</th>
-        <th>Noticia</th>
-        <td></td>
-    </tr>
-    </thead>
-    <tr ng-repeat="notice in allNotices">
-        <td>{{notice.ColunaId}}</td>
-        <td>{{notice.CorpoNoticia}}</td>
-        <td><a href="#/noticias/{{notice.Id}}">detalhe</a></td>
-    </tr>
-</table>
-<a href="#/cadastro">Nova Noticia</a>
+﻿
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">Todas Noticias</div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Genero</th>
+                    <th colspan="2">Noticia</th>
+                    <td></td>
+                </tr>
+            </thead>
+            <tr ng-repeat="notice in allNotices">
+                <td>{{notice.ColunaId}}</td>
+                <td>{{notice.CorpoNoticia}}</td>
+                <td><a href="#/noticias/{{notice.Id}}">detalhe</a></td>
+            </tr>
+        </table>
+    </div>
+</div><a href="#/cadastro">Nova Noticia</a>
